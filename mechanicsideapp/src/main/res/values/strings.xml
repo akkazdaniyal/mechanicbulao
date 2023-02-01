@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">mechanicsideapp</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already Have an Account? <u>Login now.</u></string>
+    <string name="dont_have_account">Dont Have an Account? <u>Register Now.</u></string>
+    <string name="create_account">Create Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="gender">
+        <item>Select your gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to specify</item>
+    </string-array>
+
+    <string-array name="shopLocation">
+        <item>Select your location</item>
+        <item>Abbasi Shaheed</item>
+        <item>Abu Zar Ghaffari</item>
+        <item>Agra Taj Colony</item>
+        <item>Aisha Manzil</item>
+        <item>Akhtar Colony</item>
+        <item>Al-Falah Society</item>
+        <item>Allama Iqbal Colony</item>
+        <item>Ancholi</item>
+        <item>Awami Colony</item>
+        <item>Azam Basti</item>
+        <item>Azizabad</item>
+        <item>Baghdadi</item>
+        <item>Baloch Goth</item>
+        <item>Banaras Colony</item>
+        <item>Bandhani Colony</item>
+        <item>Bhawani Chali</item>
+        <item>Bhutta Village</item>
+        <item>Bhutto Nagar</item>
+        <item>Bihar Colony</item>
+        <item>Bilal Colony</item>
+        <item>Bilal Colony</item>
+        <item>Buffer Zone</item>
+        <item>Burmee Colony</item>
+        <item>Cattle Colony</item>
+        <item>Central Jacob Lines</item>
+        <item>Chakiwara</item>
+        <item>Chakra Goth</item>
+        <item>Chanesar Goth</item>
+        <item>Chisti Nagar</item>
+        <item>City Railway Colony</item>
+        <item>Civic Centre</item>
+        <item>Civil Line</item>
+        <item>Clifton</item>
+        <item>Commercial Area</item>
+        <item>Dak Khana</item>
+        <item>Darsano Chana</item>
+        <item>Daryaabad</item>
+        <item>Data Nagar</item>
+        <item>Dawood Chowrangi</item>
+        <item>Delhi Mercantile Society</item>
+        <item>Drigh Colony</item>
+        <item>Essa Nagri</item>
+        <item>Faisal Colony</item>
+        <item>Farooq-e-Azam</item>
+        <item>Fatima Jinnah Colony</item>
+        <item>Firdous Colony</item>
+        <item>Frontier Colony</item>
+        <item>Gabo Pat</item>
+        <item>Gadap</item>
+        <item>Gaghar</item>
+        <item>Garden East</item>
+        <item>Garden</item>
+        <item>Gazdarabad</item>
+        <item>Ghabool Town</item>
+        <item>Gharibabad</item>
+        <item>Ghazi Brohi Goth</item>
+        <item>Ghaziabad</item>
+        <item>Gillani Railway Station</item>
+        <item>Godhra</item>
+        <item>Gujro</item>
+        <item>Gulshan-e-Ghazi</item>
+        <item>Gulshan-e-Hadeed</item>
+        <item>Gulshan-e-Iqbal</item>
+        <item>Gulshan-e-Saeed</item>
+        <item>Gulzar Colony</item>
+        <item>Gulzar-e-Hijri</item>
+        <item>Hakim Ahsan</item>
+        <item>Hanifabad</item>
+        <item>Haryana Colony</item>
+        <item>Hasrat Mohani Colony</item>
+        <item>Hundred Quarters</item>
+        <item>Hyderi</item>
+        <item>Ibrahim Hyderi</item>
+        <item>Iqbal Baloch Colony</item>
+        <item>Islam Pura</item>
+        <item>Islamia Colony</item>
+        <item>Ittehad Town</item>
+        <item>Jafar-e-Tayyar</item>
+        <item>Jahanabad</item>
+        <item>Jamali Colony</item>
+        <item>Jamshed Quarters</item>
+        <item>Jut Line</item>
+        <item>Kakapir</item>
+        <item>Kala Board</item>
+        <item>Kalyana</item>
+        <item>Karimabad</item>
+        <item>Keamari</item>
+        <item>Khada Memon Society</item>
+        <item>Khamiso Goth</item>
+        <item>Khandu Goth</item>
+        <item>Kharadar</item>
+        <item>Khawaja Ajmeer Colony</item>
+        <item>Khawaja Ajmeer Nagri</item>
+        <item>Khehkashan</item>
+        <item>Khokhra Par</item>
+        <item>Korangi Sector 33</item>
+        <item>Korangi</item>
+        <item>Landhi Colony</item>
+        <item>Landhi</item>
+        <item>Machar Colony</item>
+        <item>Madina Colony</item>
+        <item>Madina Colony</item>
+        <item>Mahmudabad</item>
+        <item>Manghopir</item>
+        <item>Manzoor Colony</item>
+        <item>Maripur</item>
+        <item>Maymarabad</item>
+        <item>Metrovil</item>
+        <item>Metroville Colony</item>
+        <item>Model Colony</item>
+        <item>Mohammad Nagar</item>
+        <item>Moinabad</item>
+        <item>Mominabad</item>
+        <item>Moria Khan Goth</item>
+        <item>Muhajir Camp</item>
+        <item>Mujahid Colony</item>
+        <item>Mujahidabad</item>
+        <item>Murad Memon Goth</item>
+        <item>Muslim Mujahid Colony</item>
+        <item>Muslimabad</item>
+        <item>Mustafa Taj Colony</item>
+        <item>Mustufa Colony</item>
+        <item>Muzafarabad</item>
+        <item>Nai Abadi</item>
+        <item>Nanak Wara</item>
+        <item>Naseerabad</item>
+        <item>Nasir Colony</item>
+        <item>Natha Khan Goth</item>
+        <item>Nawabad</item>
+        <item>Nazimabad</item>
+        <item>North Nazimabad</item>
+        <item>Nusrat Bhutto Colony</item>
+        <item>Old Golimar</item>
+        <item>Old Haji Camp</item>
+        <item>P.E.C.H.S</item>
+        <item>P.I.B Colony</item>
+        <item>Pahar Ganj</item>
+        <item>Pak Colony</item>
+        <item>Pak Sadat Colony</item>
+        <item>Pakistan Quarters</item>
+        <item>Paposh Nagar</item>
+        <item>Pehlwan Goth</item>
+        <item>Qasba Colony</item>
+        <item>Qasimabad</item>
+        <item>Quaidabad</item>
+        <item>Rafa-e-Aam Society</item>
+        <item>Ragiwara</item>
+        <item>Raita Plot</item>
+        <item>Rasheedabad</item>
+        <item>Rehri</item>
+        <item>Rizvia Society</item>
+        <item>Saddar</item>
+        <item>Saeedabad</item>
+        <item>Safooran Goth</item>
+        <item>Sakhi Hassan</item>
+        <item>Salehabad</item>
+        <item>Saudabad</item>
+        <item>Shadman Town</item>
+        <item>Shafiq Mill Colony</item>
+        <item>Shah Baig Line</item>
+        <item>Shah Nawaz Bhutto Colony</item>
+        <item>Shams Pir</item>
+        <item>Shanti Nagar</item>
+        <item>Sharafi Goth</item>
+        <item>Sharifabad</item>
+        <item>Sherabad</item>
+        <item>Shershah</item>
+        <item>Singo Line</item>
+        <item>Sir Syed Colony</item>
+        <item>Soldier Bazar</item>
+        <item>Songal</item>
+        <item>Sultanabad</item>
+        <item>Water Pump</item>
+        <item>Yaseenabad</item>
+        <item>Yousuf Got</item>
+        <item>Zaman Town</item>
+    </string-array>
+
+    <string-array name="expertise">
+        <item>Select your expertise</item>
+        <item>Electrician</item>
+        <item>Denter</item>
+        <item>Painter</item>
+        <item>Mechanic</item>
+        <item>Tyre Puncture</item>
+    </string-array>
+
+    <string-array name="experience">
+        <item>Select your experience</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="availability">
+        <item>Select your availability</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

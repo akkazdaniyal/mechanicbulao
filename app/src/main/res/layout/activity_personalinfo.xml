@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalinfoActivity"
+    android:background="#E6E6FA">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/headPersonalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/backPersonalinfo"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="#E6E6FA"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:paddingTop="15dp"
+                android:paddingEnd="10dp"
+                android:text="Personal Information"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headPersonalInfo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateName"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdateName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Happy User"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateNameArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateImage"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdateImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Update profile image"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateImageArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdatePhone"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdatePhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Phone Number"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdatePhoneArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateEmail"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdateEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Email Address"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateEmailArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdatePass"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdatePass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Change the password"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdatePassArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateGender"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdateGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Gender"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateGenderArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateDOB"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="17dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_personalinfo" />
+
+                <TextView
+                    android:id="@+id/txtUpdateDOB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/poppins"
+                    android:padding="15dp"
+                    android:text="Date of Birth"
+                    android:textColor="#5C5C5C"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/imgBtnUpdateDOBArrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:padding="22dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/ic_arrow" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
